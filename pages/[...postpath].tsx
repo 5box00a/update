@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://sofiabahan.000webhostapp.com/graphql` + encodeURI(path as string)
+					`https://sofiabahan.000webhostapp.com/` + encodeURI(path as string)
 				}`,
 			},
 		};
